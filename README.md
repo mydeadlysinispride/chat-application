@@ -1,1 +1,1 @@
-# app-chat-nhom8
+# chat application
