@@ -22,3 +22,10 @@ def recieve_message():
             print("An error occured...")
             client_socket.close()
             break
+#Create threads to continuously send and recieve messages
+recieve_thread = threading.Thread(target=recieve_message)
+send_thread = threading.Thread(target=send_message)
+
+#Start the client
+recieve_thread.start()
+send_thread.start()
