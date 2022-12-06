@@ -2,14 +2,17 @@
 Python chat application
 
 This is our project for IT4883Q class. Project is a simple multi-client chat server using sockets written in Python
-Function: login, logout
-          group chat
-          personal chat
-          server has model for recognize toxic English words
-          View online member
-          View all group member
-          File sharing
-          When a user create new group, this user is privileged as admin
+	
+	Function: 
+	 - login, logout
+         - group chat
+         - personal chat
+         - server has model for recognize toxic English words
+         - View online member
+         - View all group member
+         - File sharing
+         - When a user create new group, this user is privileged as admin
+	 
 Server: The server has model for recognize toxic English words
 	
 	The server console will display logs for:
@@ -22,7 +25,9 @@ Server: The server has model for recognize toxic English words
 	- Join request approval
 	- File transfer
 
-Client: - View pending join requests**
+Client: 
+	
+	- View pending join requests**
 	- Approve pending join requests**
 	- Disconnect
 	- View all group members
@@ -31,4 +36,5 @@ Client: - View pending join requests**
 	- View group admin
 	- Kick member**
 	- Send a file to group
+	
 ** = Admin only action
