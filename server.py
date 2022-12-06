@@ -27,3 +27,8 @@ def connect_client():
         #Now that a new client has connected, start a thread
         recieve_thread = threading.Thread(target=recieve_message, args=(client_socket,))
         recieve_thread.start()
+
+        
+#Start the server
+print("Server is listening for incoming connections...\n")
+connect_client()
